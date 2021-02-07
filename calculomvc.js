@@ -14,3 +14,4 @@ if(imc >= 30){
 
 console.log(imc) 
 
+
