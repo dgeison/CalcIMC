@@ -12,17 +12,18 @@ body {
     color: white;
 }
 
+/* HEADER */
 header {
     padding: 32px;
     border-bottom: 1px solid #333;
     background: rgba(0, 0, 0, 0.1);
 }
 
-header div {
+.links {
     text-align: center;
 }
 
-header div a {
+.links a {
     color: white;
     font-size: 18px;
     line-height: 28px;
@@ -30,17 +31,19 @@ header div a {
     text-decoration: none;
 }
 
-header div a:hover {
+.links  a:hover {
     color: #50fa7b;
-    transition: color 700ms;
+    transition: color 1000ms;
 }
 
+/* MAIN */
 #wrapper {
     text-align: center;
     padding: 32px;
 }
 
 #wrapper img {
+    width: 200px;
     border-radius: 50%;
     border: 5px solid #50fa7b;
     margin-bottom: 32px;
@@ -66,4 +69,15 @@ header div a:hover {
     margin: 32px auto;
     font-size: 18px;
     line-height: 28px
+} 
+
+#wrapper p a{
+    color: #50fa7b;
+    text-decoration: none;
+} 
+
+/* FOOTER */
+#footer-links a{
+    border-bottom: 1px solid #50fa7b;
 }
+
